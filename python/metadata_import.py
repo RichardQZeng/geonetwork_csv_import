@@ -28,7 +28,7 @@ class TestMetadataImport(unittest.TestCase):
 
     def setUp(self):
         # remove existing output files
-        for file in os.listdir('../output/'):
+        for file in os.listdir('../output'):
             if file not in ['.gitignore']:
                 os.remove('../output/' + file)
 
